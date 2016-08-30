@@ -2,3 +2,8 @@ language: node_js
 node_js:
   - "6"
   - "iojs"
+deploy:
+  provider: opsworks
+  access-key-id: AKIAJNN5LAFE7636SLCQ
+  secret-access-key: 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
+  app-id: 48741eaa-256b-42ee-9516-af3a85258d9f
