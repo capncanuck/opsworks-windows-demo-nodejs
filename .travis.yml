@@ -1,9 +1,12 @@
 language: node_js
 node_js:
-  - "6"
-  - "iojs"
+- '6'
+- iojs
 deploy:
   provider: opsworks
-  access-key-id: AKIAJNN5LAFE7636SLCQ
-  secret-access-key: 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
+  access_key_id: AKIAJWGCOATAULDKYIUQ
+  secret_access_key:
+    secure: ZI2eXW122tOYF6qOjBeJNNM8tFVJtEggU3fTasz9FkhrbuL3b9mvtLWPkm/WG++WckCMipfVdBa/4XPcIUVd2zNsCgd9FbVNAaeRtKs5UbE0bqnTH9/kbYRqCeprEhJA2n0GXNGCNd1iblV3az2w30ffA6TSs4XhStXxbsnerDoNbwGpnxpjRMl0kAAbaPCFrlhbCmLI0Fsn+fk5ZVFCJ6AKQSkyrB3EM+WNTrlvPDLy+OwvMNymsk1fH2IR5Xaes+onXJpKqusFRMBrYGIyChd+MaDX1+Hv/I80LjUZMqazZ0xcBPSLFGDNoxDc3saSiGqLJgAcCYlF4ZnoyH2lpSgItbbbYfwYUNOOY2VHhIWpnk9ff6RKdvZe2ytFg2BzV5PS8dNV2Jt12sWvMe0eE/CI4aDQM+be+Sw4jozAztVb4Uqih0Q1OfxGSCqxPc9/EsHhDYOxkM4H9reIWUHso7aW7fp0l8x7V/4KTCjofk6nncKz/7rLmuCQ+h3+ehyTm/Z7hpYDlsPN4yKunSzTtRUpIvRsUAy0mnVHhFMN9XTZd+PfbeqOdkuYrmtBHWWUF19b0EUCemjlPpKn01xFokXjMzYc7A4xkUJ+vU74tOW+Fll+GjEJv1Cm65+k5BI/qoEp9dxkeJx8QbrXj+KGcng6KEbZi2tWxQb0rCsPJkI=
   app-id: 48741eaa-256b-42ee-9516-af3a85258d9f
+  on:
+    repo: capncanuck/opsworks-windows-demo-nodejs
